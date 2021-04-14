@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Play', sans-serif;
+    background-color: rgb(17,17,17);
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+header{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(53,53,53);
+    z-index: 999;
+}
+.navigation{
+    width: 628px;
+    display: flex;
+    align-items: center;
+    margin-left: 130px;
+    text-transform: uppehttps://steamcommunity.com/id/da4n1kcorvus/rcase;
+    font-size: 15px;
+}
+.navigation img{
+    width: 100px;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    padding-left: 14px;
+    margin: 0;
+}
+.log{
+    width: 290px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.log a{
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0;
+}
+.log i{
+    color: rgb(100, 100, 100);
+    padding-left: 10px;
+}
+main{
+    width: 100%;
+    height: 2500px;
+    display: flex;
+    margin-top: 40px;
+}
+.carousel{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+.carousel img{
+    width: 100%;
+    height: 800px;
+}
+
+/*media screen*/
