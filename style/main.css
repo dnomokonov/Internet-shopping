@@ -27,7 +27,7 @@ header{
     display: flex;
     align-items: center;
     margin-left: 130px;
-    text-transform: uppehttps://steamcommunity.com/id/da4n1kcorvus/rcase;
+    text-transform: uppercase;
     font-size: 15px;
 }
 .navigation img{
@@ -77,3 +77,11 @@ main{
 }
 
 /*media screen*/
+@media screen and (max-width: 1150px){
+    .carousel{
+        height: 700px;
+    }
+    .carousel img{
+        height: 700px;
+    }
+}
