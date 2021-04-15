@@ -95,10 +95,13 @@ main{
     text-transform: uppercase;
     font-size: 50px;
     font-weight: 700;
-    color: red;
-}
-.list-check span{
     color: white;
+}
+.list-check hr{
+    width: 400px;
+    border: 2px solid rgb(255, 0, 0);
+    margin-top: 0px;
+    opacity: 100%;
 }
 .product-item{
     width: 100%;
@@ -121,9 +124,33 @@ main{
     background-color: rgb(41, 41, 41);
     transition: all 0.4s ease-out;
 }
+.perefer{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .perefer h2{
     text-transform: uppercase;
     font-size: 50px;
     font-weight: 700;
     color: rgb(255, 255, 255);
+}
+.perefer hr{
+    width: 200px;
+    border: 2px solid rgb(255, 0, 0);
+    margin-top: 0px;
+    opacity: 100%;
+}
+.item{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.item-p{
+    width: 150px;
+    height: 100px;
+    background-color: rgb(34, 34, 34);
 }
