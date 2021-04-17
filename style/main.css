@@ -64,7 +64,6 @@ header{
 }
 main{
     width: 100%;
-    height: 2500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,7 +71,7 @@ main{
 }
 .box3d{
     width: 100%;
-    height: 850px;
+    height: 860px;
     display: flex;
     align-items: center;
     background-color: black;
@@ -88,7 +87,7 @@ main{
     margin-top: 30px;
     color: white;
 }
-.list-check h2{
+h2{
     text-transform: uppercase;
     font-size: 50px;
     font-weight: 700;
@@ -128,25 +127,120 @@ main{
     align-items: center;
     flex-direction: column;
 }
-.perefer h2{
-    text-transform: uppercase;
-    font-size: 50px;
-    font-weight: 700;
-    color: rgb(255, 255, 255);
-}
 .perefer hr{
     width: 200px;
     border: 2px solid rgb(255, 0, 0);
     margin-top: 0px;
     opacity: 100%;
 }
-.item{
+.servers{
     width: 100%;
-    height: 500px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.servers hr{
+    width: 160px;
+    border: 2px solid rgb(255, 0, 0);
+    margin-top: 0px;
+    opacity: 100%;
+}
+.attendance{
+    width: 100%;
+    height: 450px;
     display: flex;
     justify-content: center;
 }
-.carouselExampleFade{
+.att-s{
+    width: 450px;
+    height: 350px;
+    margin: 20px;
+    background-color: rgb(34, 34, 34);
+}
+.about{
     width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.about hr{
+    width: 90px;
+    border: 2px solid rgb(255, 0, 0);
+    margin-top: 0px;
+    opacity: 100%;
+}
+.info-us{
+    width: 1410px;
+    height: 400px;
+    display: flex;
+
+    margin-top: 40px;
+    background-color: rgba(34, 34, 34, 0.178);
+}
+.info-us p{
+    display: flex;
+    align-items: center;
+    padding: 160px;
+    font-size: 20px;
+    color: white;
+}
+.info-us img{
+    width: 400px;
     height: 500px;
+    margin-top: -100px;
+    margin-left: -20px;
+}
+.reviews{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.reviews hr{
+    width: 130px;
+    border: 2px solid rgb(255, 0, 0);
+    margin-top: 0px;
+    opacity: 100%;
+}
+.rewInfo{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: -50px;
+    color: white;
+    background-color: rgba(34, 34, 34, 0);
+}
+.personBox{
+    width: 480px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 40px;
+    background-color: rgb(34, 34, 34);
+}
+.personBox img{
+    width: 140px;
+    margin-left: 8px;
+    border-radius: 200px;
+    border: 4px solid rgba(255, 255, 255, 0.425);
+}
+.personBox img:hover{
+    display: block;
+    transition: all 0.2s ease-in-out 0s;
+    animation-duration: 0.2s;
+	animation-iteration-count: 1;
+    transform: scale(1.05);
+}
+.comment{
+    padding: 20px;
+}
+.comment i{
+    color: rgb(255, 217, 0);
 }
