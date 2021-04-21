@@ -414,7 +414,7 @@ h2{
     width: 140px;
     height: 40px;
     margin-top: 20px;
-    border: 1px solid white;
+    border: 1px solid rgba(153, 153, 153, 0.247);
     color: white;
     background: none;
 }
@@ -428,11 +428,60 @@ h2{
     width: 170px;
     height: 170px;
     position: relative;
-    left: 120px;
-    top: -70px;
+    left: 90px;
+    top: -60px;
 }
 .woman{
     height: 550px;
     margin-top: 50px;
     margin-right: 50px;
+}
+footer{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(34, 34, 34, 0.178);
+}
+footer a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.menub{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+}
+.textUpper{
+    font-size: 32px;
+}
+.textUpper:hover{
+    color: white;
+}
+ul{
+    margin-left: 0;
+    padding-left: 0;
+}
+li{
+    list-style: none;
+}
+li a{
+    color: rgb(185, 185, 185);
+}
+li a:hover{
+    color: rgb(112, 112, 112);
+}
+.iconContact{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.iconContact i{
+    font-size: 30px;
+    padding: 20px;
 }
