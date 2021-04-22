@@ -70,7 +70,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(53,53,53);
+    background-color: rgba(53, 53, 53, 0.212);
     z-index: 999;
 }
 .navigation{
@@ -82,7 +82,7 @@ header{
     font-size: 15px;
 }
 .navigation img{
-    width: 100px;
+    width: 40px;
 }
 .navigation a{
     text-decoration: none;
@@ -96,7 +96,7 @@ header{
     align-items: center;
     margin-right: 10px;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 16px;
 }
 .log a{
     text-decoration: none;
@@ -107,7 +107,7 @@ header{
 }
 .log i{
     color: rgb(100, 100, 100);
-    padding-left: 10px;
+    padding-left: 15px;
 }
 .log a:hover, .navigation a:hover, .log i:hover{
     color: rgb(196, 196, 196);
@@ -120,7 +120,7 @@ main{
     align-items: center;
     margin-top: 40px;
 }
-.box3d{
+.boxLogo{
     width: 100%;
     height: 860px;
     display: flex;
@@ -359,6 +359,7 @@ h2{
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 150px;
 }
 .questions hr{
     width: 400px;
@@ -473,15 +474,39 @@ li a{
     color: rgb(185, 185, 185);
 }
 li a:hover{
-    color: rgb(112, 112, 112);
+    color: rgb(150, 150, 150);
 }
 .iconContact{
     width: 100%;
     height: 300px;
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
 }
 .iconContact i{
-    font-size: 30px;
-    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    padding: 40px;
+    color: rgb(185, 185, 185);
+}
+.iconContact i p{
+    font-size: 16px;
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 10px;
+}
+.iconContact i:hover{
+    color: rgb(150, 150, 150);
+}
+.iconContact hr{
+    width: 1px;
+    height: 40px;
+    border: 2px solid rgb(255, 0, 0);
+    margin: 0;
+    opacity: 100%;
 }
