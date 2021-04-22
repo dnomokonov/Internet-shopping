@@ -173,7 +173,7 @@ h2{
 }
 .perefer{
     width: 100%;
-    height: 800px;
+    height: 600px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -292,6 +292,9 @@ h2{
 .comment{
     padding: 20px;
 }
+.comment h3{
+    color: white;
+}
 .comment i{
     color: rgb(255, 217, 0);
 }
@@ -309,6 +312,7 @@ h2{
 .numberprocent{
     font-weight: 700;
     font-size: 90px;
+    color: white;
 }
 .adsite{
     color: rgb(185, 185, 185);
