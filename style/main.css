@@ -1,18 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
+    font-family: 'Play', sans-serif;
 }
-body{
+
+body {
     display: flex;
     flex-direction: column;
-    font-family: 'Play', sans-serif;
-    background-color: rgb(17,17,17);
+    background-color: rgb(17, 17, 17);
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     width: 0;
 }
-#scrollPath{
+
+#scrollPath {
     position: fixed;
     top: 0;
     right: 0;
@@ -21,7 +25,8 @@ body{
     background-color: rgba(255, 255, 255, 0.05);
     z-index: 2;
 }
-#progressbar{
+
+#progressbar {
     position: fixed;
     top: 0;
     right: 0;
@@ -30,17 +35,20 @@ body{
     animation: animate 5s linear infinite;
     z-index: 2;
 }
-@keyframes animate{
-    0%,100%
-    {
+
+@keyframes animate {
+
+    0%,
+    100% {
         filter: hue-rotate(0deg);
     }
-    50%
-    {
+
+    50% {
         filter: hue-rotate(360deg);
     }
 }
-#progressbar:before{
+
+#progressbar:before {
     content: '';
     position: absolute;
     top: 0;
@@ -50,7 +58,8 @@ body{
     background: linear-gradient(to top, #008aff, #00ffe7);
     filter: blur(10px);
 }
-#progressbar:after{
+
+#progressbar:after {
     content: '';
     position: absolute;
     top: 0;
@@ -60,10 +69,12 @@ body{
     background: linear-gradient(to top, #008aff, #00ffe7);
     filter: blur(30px);
 }
-a{
+
+a {
     text-decoration: none;
 }
-header{
+
+header {
     width: 100%;
     height: 50px;
     position: fixed;
@@ -73,7 +84,8 @@ header{
     background-color: rgba(53, 53, 53, 0.212);
     z-index: 999;
 }
-.navigation{
+
+.navigation {
     width: 628px;
     display: flex;
     align-items: center;
@@ -81,16 +93,19 @@ header{
     text-transform: uppercase;
     font-size: 15px;
 }
-.navigation img{
+
+.navigation img {
     width: 40px;
 }
-.navigation a{
+
+.navigation a {
     text-decoration: none;
     color: white;
     padding-left: 14px;
     margin: 0;
 }
-.log{
+
+.log {
     width: 290px;
     display: flex;
     align-items: center;
@@ -98,29 +113,36 @@ header{
     text-transform: uppercase;
     font-size: 16px;
 }
-.log a{
+
+.log a {
     text-decoration: none;
     color: white;
     padding-left: 5px;
     padding-right: 5px;
     margin: 0;
 }
-.log i{
+
+.log i {
     color: rgb(100, 100, 100);
     padding-left: 15px;
 }
-.log a:hover, .navigation a:hover, .log i:hover{
+
+.log a:hover,
+.navigation a:hover,
+.log i:hover {
     color: rgb(196, 196, 196);
     transition: 0.3s ease-out;
 }
-main{
+
+main {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 40px;
 }
-.boxLogo{
+
+.boxLogo {
     width: 100%;
     height: 860px;
     display: flex;
@@ -128,7 +150,8 @@ main{
     background-color: black;
     z-index: 1;
 }
-.list-check{
+
+.list-check {
     width: 100%;
     height: 800px;
     display: flex;
@@ -138,91 +161,107 @@ main{
     margin-top: 30px;
     color: white;
 }
-h2{
+
+h2 {
+    margin: 0;
     text-transform: uppercase;
     font-size: 50px;
     font-weight: 700;
+    font-family: 'Play', sans-serif;
     color: white;
 }
-.list-check hr{
+
+.list-check hr {
     width: 400px;
     border: 2px solid rgb(255, 0, 0);
     margin-top: 0px;
     opacity: 100%;
 }
-.product-item{
+
+.product-item {
     width: 100%;
-    height: auto; 
+    height: auto;
     display: flex;
     justify-content: center;
     margin-top: 30px;
 
 }
-.box1{
+
+.box1 {
     width: 410px;
     height: 550px;
     margin: 25px;
     border: 1px solid rgb(34, 34, 34);
     background-color: rgb(34, 34, 34);
 }
-.box1:hover{
-    border:1px solid;
+
+.box1:hover {
+    border: 1px solid;
     border-image: linear-gradient(to bottom, red, rgba(255, 0, 0, 0)) 1;
     background-color: rgb(41, 41, 41);
     transition: all 0.4s ease-out;
 }
-.perefer{
+
+.perefer {
     width: 100%;
     height: 600px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.perefer hr{
+
+.perefer hr {
     width: 200px;
     border: 2px solid rgb(255, 0, 0);
     margin-top: 0px;
     opacity: 100%;
 }
-.servers{
+
+.servers {
     width: 100%;
     height: 550px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.servers hr{
+
+.servers hr {
     width: 160px;
     border: 2px solid rgb(255, 0, 0);
     margin-top: 0px;
     opacity: 100%;
 }
-.attendance{
+
+.attendance {
     width: 100%;
     height: 450px;
     display: flex;
     justify-content: center;
 }
-.att-s{
+
+.att-s {
     width: 450px;
     height: 350px;
     margin: 20px;
     background-color: rgb(34, 34, 34);
 }
-.about{
+
+.about {
     width: 100%;
     height: 600px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.about hr{
+
+.about hr {
     width: 90px;
     border: 2px solid rgb(255, 0, 0);
     margin-top: 0px;
     opacity: 100%;
 }
-.info-us{
+
+.info-us {
     width: 1410px;
     height: 400px;
     display: flex;
@@ -230,33 +269,38 @@ h2{
     margin-top: 40px;
     background-color: rgba(34, 34, 34, 0.178);
 }
-.info-us p{
+
+.info-us p {
     display: flex;
     align-items: center;
     padding: 160px;
     font-size: 24px;
     color: white;
 }
-.info-us img{
+
+.info-us img {
     width: 400px;
     height: 500px;
     margin-top: -100px;
     margin-left: -20px;
 }
-.reviews{
+
+.reviews {
     width: 100%;
     height: 700px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.reviews hr{
+
+.reviews hr {
     width: 130px;
     border: 2px solid rgb(255, 0, 0);
     margin-top: 0px;
     opacity: 100%;
 }
-.rewInfo{
+
+.rewInfo {
     width: 100%;
     height: 350px;
     display: flex;
@@ -267,7 +311,8 @@ h2{
     color: white;
     background-color: rgba(34, 34, 34, 0);
 }
-.personBox{
+
+.personBox {
     width: 480px;
     height: 160px;
     display: flex;
@@ -276,29 +321,39 @@ h2{
     border-radius: 40px;
     background-color: rgb(34, 34, 34);
 }
-.personBox img{
+
+.personBox img {
     width: 140px;
     margin-left: 8px;
     border-radius: 200px;
     border: 4px solid rgba(255, 255, 255, 0.425);
 }
-.personBox img:hover{
+
+.personBox img:hover {
     display: block;
     transition: all 0.2s ease-in-out 0s;
     animation-duration: 0.2s;
-	animation-iteration-count: 1;
+    animation-iteration-count: 1;
     transform: scale(1.05);
 }
-.comment{
+
+.comment {
     padding: 20px;
 }
-.comment h3{
+
+.comment p {
+    margin: 0px 0px 16px 0px;
+}
+
+.comment h3 {
     color: white;
 }
-.comment i{
+
+.comment i {
     color: rgb(255, 217, 0);
 }
-.rewSite{
+
+.rewSite {
     width: 80%;
     height: 220px;
     display: flex;
@@ -309,55 +364,72 @@ h2{
     color: white;
     background-color: rgb(34, 34, 34);
 }
-.numberprocent{
+
+.rewSite p {
+    margin: 0px 0px 16px 0px;
+}
+
+.numberprocent {
     font-weight: 700;
     font-size: 90px;
     color: white;
 }
-.adsite{
+
+.adsite {
     color: rgb(185, 185, 185);
 }
-.adsite a{
+
+.adsite a {
     font-size: 35px;
     font-weight: 700;
     text-decoration: none;
     color: white;
 }
-.rewAddSite{
+
+.rewAddSite {
     color: rgb(185, 185, 185);
 }
-.rewAddSite i{
+
+.rewAddSite i {
     color: rgb(255, 217, 0);
 }
-.rewAddSite button{
+
+.rewAddSite button {
     width: 120px;
     background-color: rgb(34, 34, 34);
     border: 1px solid rgba(153, 153, 153, 0.247);
 }
-.rewAddSite button:hover{
+
+.rewAddSite button:hover {
     background-color: rgb(29, 29, 29);
 }
-.rewAddSite a{
+
+.rewAddSite a {
     font-size: 17px;
     color: white;
 }
-.markNum{
+
+.markNum {
     color: rgb(185, 185, 185);
 }
-.markNum h1{
+
+.markNum h1 {
     font-size: 40px;
     font-weight: 700;
     color: white;
 }
-.meanNum{
+
+.meanNum {
     color: rgb(185, 185, 185);
 }
-.meanNum h1{
+
+.meanNum h1 {
     font-size: 40px;
     font-weight: 700;
     color: white;
 }
-.questions{
+
+.questions {
     width: 100%;
     height: 800px;
     display: flex;
@@ -365,13 +437,15 @@ h2{
     flex-direction: column;
     margin-bottom: 150px;
 }
-.questions hr{
+
+.questions hr {
     width: 400px;
     border: 2px solid rgb(255, 0, 0);
     margin-top: 0px;
     opacity: 100%;
 }
-.inputBox{
+
+.inputBox {
     width: 60%;
     height: 600px;
     display: flex;
@@ -379,7 +453,8 @@ h2{
     margin-top: 70px;
     background-color: rgb(34, 34, 34);
 }
-.form{
+
+.form {
     width: 50%;
     height: 600px;
     display: flex;
@@ -387,12 +462,14 @@ h2{
     align-items: center;
     justify-content: center;
 }
-.form p{
+
+.form p {
     font-size: 40px;
     font-weight: 700;
     color: white;
 }
-.form input{
+
+.form input {
     width: 400px;
     height: 50px;
     margin-bottom: 30px;
@@ -404,7 +481,8 @@ h2{
     outline: none;
     background-color: rgb(56, 56, 56);
 }
-.form textarea{
+
+.form textarea {
     width: 400px;
     height: 220px;
     resize: none;
@@ -415,7 +493,8 @@ h2{
     padding: 10px;
     background-color: rgb(56, 56, 56);
 }
-#reception{
+
+#reception {
     width: 140px;
     height: 40px;
     margin-top: 20px;
@@ -423,25 +502,30 @@ h2{
     color: white;
     background: none;
 }
-#reception:hover{
+
+#reception:hover {
     background-color: rgb(45, 45, 45);
 }
-#reception:active{
+
+#reception:active {
     background-color: rgb(30, 30, 30);
 }
-.speech{
+
+.speech {
     width: 170px;
     height: 170px;
     position: relative;
     left: 90px;
     top: -60px;
 }
-.woman{
+
+.woman {
     height: 550px;
     margin-top: 50px;
     margin-right: 50px;
 }
-footer{
+
+footer {
     width: 100%;
     height: 600px;
     display: flex;
@@ -449,38 +533,52 @@ footer{
     align-items: center;
     background: rgb(34, 34, 34, 0.178);
 }
-footer a{
+
+footer a {
     text-decoration: none;
     font-size: 20px;
     color: white;
 }
-.menub{
+
+.menub {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: space-evenly;
     margin-top: 90px;
 }
-.textUpper{
+
+.textUpper {
+    text-decoration: none;
     font-size: 32px;
 }
-.textUpper:hover{
+
+.textUpper:hover {
     color: white;
 }
-ul{
-    margin-left: 0;
-    padding-left: 0;
+
+ul {
+
+    margin: 0;
+    padding: 0;
 }
-li{
+
+li {
     list-style: none;
 }
-li a{
+
+li a {
+    text-decoration: none;
+    font-family: 'Play', sans-serif;
     color: rgb(185, 185, 185);
 }
-li a:hover{
+
+li a:hover {
+    text-decoration: none;
     color: rgb(150, 150, 150);
 }
-.iconContact{
+
+.iconContact {
     width: 100%;
     height: 300px;
     display: flex;
@@ -489,7 +587,8 @@ li a:hover{
     align-items: center;
     margin-top: 50px;
 }
-.iconContact i{
+
+.iconContact i {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -497,17 +596,20 @@ li a:hover{
     padding: 40px;
     color: rgb(185, 185, 185);
 }
-.iconContact i p{
+
+.iconContact i p {
     font-size: 16px;
     font-family: 'Play', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
     margin: 0px 0px 0px 10px;
 }
-.iconContact i:hover{
+
+.iconContact i:hover {
     color: rgb(150, 150, 150);
 }
-.iconContact hr{
+
+.iconContact hr {
     width: 1px;
     height: 40px;
     border: 2px solid rgb(255, 0, 0);
