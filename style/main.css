@@ -191,9 +191,24 @@ h2 {
 .box1 {
     width: 410px;
     height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin: 25px;
     border: 1px solid rgb(34, 34, 34);
     background-color: rgb(34, 34, 34);
+}
+
+.box1 p {
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+}
+
+.laptop {
+    margin-top: 70px;
 }
 
 .box1:hover {
@@ -219,7 +234,7 @@ h2 {
 }
 
 .uk-position-relative {
-    margin-top: 70px;
+    margin-top: 20px;
 }
 
 .uk-slider-items {
@@ -235,7 +250,39 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    margin: 50px;
     background: rgb(34, 34, 34);
+}
+
+.uk-panel p {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.monitor {
+    width: 210px;
+}
+
+.keyboard {
+    width: 360px;
+}
+
+.mouse {
+    width: 200px;
+}
+
+.headphone {
+    width: 150px;
+}
+
+.micro {
+    width: 200px;
+}
+
+.gamepad {
+    width: 200px;
 }
 
 .servers {
@@ -262,9 +309,34 @@ h2 {
 
 .att-s {
     width: 450px;
-    height: 350px;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     margin: 20px;
+    border: 1px solid rgb(34, 34, 34);
     background-color: rgb(34, 34, 34);
+}
+
+.att-s p {
+    font-size: 35px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+}
+
+.att-s i {
+    color: white;
+    font-size: 120px;
+}
+
+.attendance a .att-s:hover,
+.att-s i:hover {
+    border-image: linear-gradient(to bottom, red, rgba(255, 0, 0, 0)) 1;
+    color: rgb(255, 0, 0);
+    font-size: 150px;
+    transition: 0.3s ease-out;
 }
 
 .about {
