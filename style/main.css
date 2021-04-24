@@ -205,7 +205,7 @@ h2 {
 
 .perefer {
     width: 100%;
-    height: 500px;
+    height: 600px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -216,6 +216,10 @@ h2 {
     border: 2px solid rgb(255, 0, 0);
     margin-top: 0px;
     opacity: 100%;
+}
+
+.uk-position-relative {
+    margin-top: 70px;
 }
 
 .uk-slider-items {
