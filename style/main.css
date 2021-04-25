@@ -149,8 +149,15 @@ main {
     height: 860px;
     display: flex;
     align-items: center;
-    background-color: black;
+    background-color: rgb(68, 68, 68);
     z-index: 1;
+}
+
+#gamePC {
+    position: absolute;
+    top: 0;
+    right: -150px;
+    z-index: 998;
 }
 
 .list-check {
