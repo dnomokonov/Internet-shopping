@@ -11,10 +11,7 @@ scene = new THREE.Scene();
 camera = new THREE.PerspectiveCamera(45, window.innerHeight / window.innerHeight, 0.1, 1000);
 camera.position.z = 10;
 
-renderer = new THREE.WebGLRenderer({
-    alpha: true,
-    antialias: true
-});
+renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
 renderer.setClearColor(0x000000, 0);
 renderer.setSize(1280, 720);
 
