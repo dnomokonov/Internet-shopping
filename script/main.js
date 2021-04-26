@@ -5,7 +5,7 @@ window.onscroll = function() {
     progress.style.height = progressHeight + "%";
 }
 
-//3dmodel Threjs
+
 
 scene = new THREE.Scene();
 camera = new THREE.PerspectiveCamera(45, window.innerHeight / window.innerHeight, 0.1, 1000);
@@ -36,8 +36,6 @@ loader.load('./image/model/pc2/scene.gltf', function(gltf) {
     obj.scene.scale.set(0.5, 0.5, 0.4);
     scene.add(obj.scene);
 });
-
-//animate 3dmodel
 
 function animate() {
     requestAnimationFrame(animate);
