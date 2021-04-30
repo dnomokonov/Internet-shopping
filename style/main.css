@@ -23,7 +23,7 @@ body {
     width: 10px;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.05);
-    z-index: 2;
+    z-index: 3;
 }
 
 #progressbar {
@@ -33,7 +33,7 @@ body {
     width: 10px;
     background: linear-gradient(to top, #008aff, #00ffe7);
     animation: animate 5s linear infinite;
-    z-index: 2;
+    z-index: 3;
 }
 
 @keyframes animate {
@@ -168,7 +168,7 @@ main {
     font-size: 50px;
     font-weight: 700;
     font-family: 'Play', sans-serif;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 #particles-js {
@@ -178,7 +178,7 @@ main {
     margin: 0;
     padding: 0;
     background: rgb(34, 34, 34);
-    z-index: 997;
+    z-index: 2;
 }
 
 #gamePC {
@@ -186,6 +186,21 @@ main {
     top: 0;
     right: 0;
     z-index: 998;
+}
+
+#havePC {
+    width: 150px;
+    height: 40px;
+    border: none;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    background: rgb(109, 218, 0);
+}
+
+#havePC:hover {
+    background: rgb(93, 187, 0);
 }
 
 .list-check {
