@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Play', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    background-color: rgb(17, 17, 17);
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+#scrollPath {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.05);
+    z-index: 3;
+}
+
+#progressbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    animation: animate 5s linear infinite;
+    z-index: 3;
+}
+
+@keyframes animate {
+
+    0%,
+    100% {
+        filter: hue-rotate(0deg);
+    }
+
+    50% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+#progressbar:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    filter: blur(10px);
+}
+
+#progressbar:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    filter: blur(30px);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(53, 53, 53, 0.212);
+    z-index: 999;
+}
+
+.navigation {
+    width: 628px;
+    display: flex;
+    align-items: center;
+    margin-left: 130px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.navigation img {
+    width: 40px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    padding-left: 14px;
+    margin: 0;
+}
+
+.log {
+    width: 290px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.log a {
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0;
+}
+
+.log i {
+    color: rgb(100, 100, 100);
+    padding-left: 15px;
+}
+
+.log a:hover,
+.navigation a:hover,
+.log i:hover {
+    color: rgb(196, 196, 196);
+    transition: 0.3s ease-out;
+}
+
+
+.buyerLogo {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(34, 34, 34);
+}
+
+.buyerLogo h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.buyerLogo img {
+    width: 500px;
+    margin-top: 145px;
+}
+
+.menuBuyer {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    margin-right: 250px;
+}
+
+.menuBuyer a {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.menuBuyer a:hover {
+    color: rgb(196, 196, 196);
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Play', sans-serif;
+    color: white;
+}
+
+
+footer {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(34, 34, 34, 0.178);
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.menub {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+}
+
+.textUpper {
+    text-decoration: none;
+    font-size: 32px;
+}
+
+.textUpper:hover {
+    color: white;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Play', sans-serif;
+    color: rgb(185, 185, 185);
+}
+
+li a:hover {
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+}
+
+.iconContact {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.iconContact i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    padding: 40px;
+    color: rgb(185, 185, 185);
+}
+
+.iconContact i p {
+    font-size: 16px;
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 10px;
+}
+
+.iconContact i:hover {
+    color: rgb(150, 150, 150);
+}
+
+.iconContact hr {
+    width: 1px;
+    height: 40px;
+    border: 2px solid rgb(255, 0, 0);
+    margin: 0;
+    opacity: 100%;
+}
