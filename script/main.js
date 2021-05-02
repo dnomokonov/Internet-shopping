@@ -10,7 +10,10 @@ let scene = new THREE.Scene();
 let camera = new THREE.PerspectiveCamera(45, window.innerHeight / window.innerHeight, 0.1, 1000);
 camera.position.z = 10;
 
-let renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
+let renderer = new THREE.WebGLRenderer({
+    alpha: true,
+    antialias: true
+});
 renderer.setClearColor(0x000000, 0);
 renderer.setSize(1280, 720);
 
@@ -43,3 +46,12 @@ function animate() {
     renderer.render(scene, camera);
 }
 animate();
+
+let email = document.getElementById('email');
+let bttRec = document.getElementById('reception');
+
+bttRec.addEventListener('click', validate);
+
+function validate() {
+
+}
