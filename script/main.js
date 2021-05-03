@@ -50,8 +50,6 @@ animate();
 let email = document.getElementById('email');
 let bttRec = document.getElementById('reception');
 
-bttRec.addEventListener('click', validate);
+//bttRec.addEventListener('click', validate);
 
-function validate() {
-
-}
+//function validate() {}
