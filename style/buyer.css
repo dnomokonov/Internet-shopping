@@ -141,7 +141,6 @@ header {
     height: 860px;
     display: flex;
     align-items: center;
-    background: rgb(34, 34, 34, 0.178);
 }
 
 #particles-js {
@@ -150,7 +149,7 @@ header {
     position: absolute;
     margin: 0;
     padding: 0;
-    background: rgb(34, 34, 34);
+    background: rgb(34, 34, 34, 0.466);
     z-index: 2;
 }
 
@@ -315,7 +314,7 @@ h2 {
     align-items: center;
     justify-content: center;
     margin-top: 20px;
-    background: rgb(25, 25, 25);
+    background: rgb(34, 34, 34, 0.466);
 }
 
 .item-delivery p {
@@ -352,7 +351,7 @@ h2 {
     align-items: center;
     justify-content: center;
     margin-top: 20px;
-    background: rgb(25, 25, 25);
+    background: rgb(34, 34, 34, 0.466);
 }
 
 .item-pay img {
@@ -390,7 +389,7 @@ h2 {
     align-items: center;
     justify-content: center;
     margin-top: 20px;
-    background: rgb(25, 25, 25);
+    background: rgb(34, 34, 34, 0.466);
 }
 
 .item-upgrade p {
