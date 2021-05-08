@@ -1,0 +1,11 @@
+customer_auth:
+  path: /user/auth
+  controller: App\Controller\CustomerController::auth
+
+customer_sign_up:
+  path: /user/reg
+  controller: App\Controller\CustomerController::singUp
+
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
