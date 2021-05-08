@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -38,12 +37,10 @@ body {
 }
 
 @keyframes animate {
-
     0%,
     100% {
         filter: hue-rotate(0deg);
     }
-
     50% {
         filter: hue-rotate(360deg);
     }
@@ -158,7 +155,7 @@ h2 {
 
 .boxCompany {
     width: 100%;
-    height: 900px;
+    height: 950px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -176,7 +173,29 @@ h2 {
     width: 100%;
     height: 600px;
     display: flex;
+    justify-content: center;
+}
 
+.item-box {
+    width: 80%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    background: rgb(34, 34, 34, 0.466);
+}
+
+.item-box img {
+    width: 800px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.item-box p {
+    font-size: 24px;
+    text-align: justify;
+    text-transform: uppercase;
+    padding: 40px;
+    color: white;
 }
 
 footer {

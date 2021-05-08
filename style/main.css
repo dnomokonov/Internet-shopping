@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -38,12 +37,10 @@ body {
 }
 
 @keyframes animate {
-
     0%,
     100% {
         filter: hue-rotate(0deg);
     }
-
     50% {
         filter: hue-rotate(360deg);
     }
@@ -73,10 +70,12 @@ body {
 
 a {
     text-decoration: none;
+    color: transparent;
 }
 
 a:hover {
     text-decoration: none;
+    color: transparent;
 }
 
 header {
@@ -136,7 +135,7 @@ header {
 .navigation a:hover,
 .log i:hover {
     color: rgb(196, 196, 196);
-    transition: 0.3s ease-out;
+    transition: all 0.3s ease;
 }
 
 main {
@@ -152,7 +151,6 @@ main {
     height: 860px;
     display: flex;
     align-items: center;
-    background: rgb(34, 34, 34, 0.178);
 }
 
 .textlogo {
@@ -180,7 +178,7 @@ main {
     position: absolute;
     margin: 0;
     padding: 0;
-    background: rgb(34, 34, 34);
+    background: rgb(34, 34, 34, 0.178);
     z-index: 2;
 }
 
@@ -249,8 +247,9 @@ h2 {
     align-items: center;
     flex-direction: column;
     margin: 25px;
-    border: 1px solid rgb(34, 34, 34);
-    background-color: rgb(34, 34, 34);
+    border: 1px solid rgb(34, 34, 34, 0.178);
+    transition: all 0.3s ease;
+    background-color: rgb(34, 34, 34, 0.178);
 }
 
 .box1 p {
@@ -268,7 +267,6 @@ h2 {
     border: 1px solid;
     border-image: linear-gradient(to bottom, red, rgba(255, 0, 0, 0)) 1;
     background-color: rgb(41, 41, 41);
-    transition: all 0.4s ease-out;
 }
 
 .perefer {
@@ -305,7 +303,7 @@ h2 {
     justify-content: center;
     flex-direction: column;
     margin: 50px;
-    background: rgb(34, 34, 34);
+    background: rgb(34, 34, 34, 0.178);
 }
 
 .uk-panel p {
@@ -368,8 +366,9 @@ h2 {
     justify-content: center;
     flex-direction: column;
     margin: 20px;
-    border: 1px solid rgb(34, 34, 34);
-    background-color: rgb(34, 34, 34);
+    border: 1px solid rgb(34, 34, 34, 0.178);
+    background-color: rgb(34, 34, 34, 0.178);
+    transition: all 0.9s ease;
 }
 
 .att-s p {
@@ -382,14 +381,15 @@ h2 {
 .att-s i {
     color: white;
     font-size: 120px;
+    background: transparent;
+    transition: all 0.3s ease;
 }
 
-.attendance a .att-s:hover,
-.att-s i:hover {
+.att-s i:hover,
+.att-s:hover {
     border-image: linear-gradient(to bottom, red, rgba(255, 0, 0, 0)) 1;
     color: rgb(255, 0, 0);
     font-size: 150px;
-    transition: 0.3s ease-out;
 }
 
 .about {
@@ -454,7 +454,6 @@ h2 {
     flex-direction: row;
     margin-top: -50px;
     color: white;
-    background-color: rgba(34, 34, 34, 0);
 }
 
 .personBox {
@@ -464,7 +463,7 @@ h2 {
     align-items: center;
     margin: 10px;
     border-radius: 40px;
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(34, 34, 34, 0.466);
 }
 
 .personBox img {
@@ -507,7 +506,7 @@ h2 {
     justify-content: space-around;
     font-size: 22px;
     color: white;
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(34, 34, 34, 0.466);
 }
 
 .rewSite p {
@@ -596,7 +595,7 @@ h2 {
     display: flex;
     flex-direction: row;
     margin-top: 70px;
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(34, 34, 34, 0.466);
 }
 
 .form {
