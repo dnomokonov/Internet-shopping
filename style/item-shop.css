@@ -1,0 +1,113 @@
+.logobox {}
+
+.mainitem {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 150px;
+}
+
+.str1-item {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.str2-item {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-left: 160px;
+}
+
+.item {
+    width: 400px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 20px 0px 20px;
+    border: 1px solid rgb(34, 34, 34, 0.178);
+    transition: all 0.3s ease;
+    background: rgb(34, 34, 34, 0.178);
+}
+
+.item1 {
+    width: 250px;
+}
+
+.item2 {
+    width: 350px;
+    margin-top: 20px;
+}
+
+.item3 {
+    width: 350px;
+}
+
+.item4 {
+    width: 250px;
+}
+
+.item5 {
+    width: 350px;
+}
+
+.item6 {
+    width: 350px;
+}
+
+.item7 {
+    width: 350px;
+}
+
+.item p {
+    font-size: 20px;
+    padding: 0px 40px 0px 40px;
+    color: white;
+}
+
+.item h1 {
+    padding-top: 30px;
+    color: white;
+}
+
+.item hr {
+    width: 300px;
+    border: 2px solid rgb(255, 0, 0);
+    margin-top: 0px;
+    opacity: 100%;
+}
+
+.bt {
+    width: auto;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.item button {
+    width: 150px;
+    height: 40px;
+    margin: 30px 10px 0px 10px;
+    border: none;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+/*в процессе придумывания*/
+#aboutItem {}
+
+#addBasket {}
+
+#addBasket:hover {}
+
+#addBasket:active {}
