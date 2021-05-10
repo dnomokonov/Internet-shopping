@@ -1,5 +1,3 @@
-.logobox {}
-
 .mainitem {
     width: 100%;
     height: auto;
@@ -101,13 +99,39 @@
     border: none;
     font-size: 18px;
     color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
 }
 
-/*в процессе придумывания*/
-#aboutItem {}
+.item button:hover {
+    background: rgb(220, 220, 220);
+}
 
-#addBasket {}
+.item button:active {
+    background: rgb(190, 190, 190);
+}
 
-#addBasket:hover {}
 
-#addBasket:active {}
+/*laptop pages*/
+
+.laptop1 {
+    width: 350px;
+}
+
+.laptop2 {
+    width: 400px;
+}
+
+.laptop3 {
+    width: 350px;
+}
+
+.laptop4 {
+    width: 400px;
+}
+
+
+/*monoblock pages*/
+
+.monoblock {
+    width: 350px;
+}
