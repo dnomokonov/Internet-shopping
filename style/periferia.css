@@ -195,6 +195,10 @@ main {
     width: 220px;
 }
 
+.keyboard {
+    width: 440px;
+}
+
 .micro {
     width: 320px;
 }
