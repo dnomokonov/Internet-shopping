@@ -5,7 +5,6 @@ window.onscroll = function() {
     progress.style.height = progressHeight + "%";
 }
 
-
 let scene = new THREE.Scene();
 let camera = new THREE.PerspectiveCamera(45, window.innerHeight / window.innerHeight, 0.1, 1000);
 camera.position.z = 10;
@@ -46,10 +45,3 @@ function animate() {
     renderer.render(scene, camera);
 }
 animate();
-
-let email = document.getElementById('email');
-let bttRec = document.getElementById('reception');
-
-//bttRec.addEventListener('click', validate);
-
-//function validate() {}
