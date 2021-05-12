@@ -230,3 +230,99 @@
     background: url(../image/skinsps/texttox3.jpg);
     background-size: 80%;
 }
+
+.block_1 {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.block_2 {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.mouseItem {
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    background: rgb(34, 34, 34, 0.178);
+}
+
+.mouseItem img {
+    width: 200px;
+    margin-top: 30px;
+}
+
+.mouseItem h1 {
+    font-size: 30px;
+    color: white;
+}
+
+.mouseItem p {
+    font-size: 18px;
+    padding: 0px 40px 0px 40px;
+    color: white;
+}
+
+.prise {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.prise p {
+    font-size: 30px;
+    padding: 0;
+    margin: 0px 50px 0px 0px;
+    color: white;
+}
+
+.prise button {
+    width: 40px;
+    height: 40px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    background: red;
+}
+
+.prise i {
+    color: white;
+}
+
+.prise button:hover,
+.prise i:hover {
+    background: rgb(206, 0, 0);
+    color: rgb(199, 199, 199);
+}
+
+.prise button:active,
+.prise i:active {
+    background: rgb(165, 0, 0);
+    color: rgb(126, 126, 126);
+}
+
+#infoitem {
+    width: 110px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    font-size: 18px;
+}
