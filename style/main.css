@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -38,12 +37,10 @@ body {
 }
 
 @keyframes animate {
-
     0%,
     100% {
         filter: hue-rotate(0deg);
     }
-
     50% {
         filter: hue-rotate(360deg);
     }
@@ -196,15 +193,22 @@ main {
     width: 150px;
     height: 40px;
     border: none;
+    background: rgb(109, 218, 0);
+}
+
+#havePC a {
     font-size: 18px;
     font-weight: 800;
     text-transform: uppercase;
     color: rgb(0, 0, 0);
-    background: rgb(109, 218, 0);
 }
 
 #havePC:hover {
     background: rgb(93, 187, 0);
+}
+
+#havePC:active {
+    background: rgb(80, 160, 0);
 }
 
 .list-check {
