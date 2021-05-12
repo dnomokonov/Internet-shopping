@@ -86,28 +86,43 @@
 }
 
 .bt {
-    width: auto;
-    height: 100px;
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.item button {
-    width: 150px;
+.bt p {
+    font-size: 28px;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.bt button {
+    width: 40px;
     height: 40px;
-    margin: 30px 10px 0px 10px;
-    border: none;
-    font-size: 18px;
-    color: rgb(0, 0, 0);
-    background: rgb(255, 255, 255);
+    border: 2px solid transparent;
+    border-radius: 50px;
+    background: red;
 }
 
-.item button:hover {
-    background: rgb(220, 220, 220);
+.bt i {
+    color: white;
 }
 
-.item button:active {
-    background: rgb(190, 190, 190);
+.bt button:hover,
+.bt i:hover {
+    background: rgb(206, 0, 0);
+    color: rgb(199, 199, 199);
+}
+
+.bt button:active,
+.bt i:active {
+    background: rgb(165, 0, 0);
+    color: rgb(126, 126, 126);
 }
 
 
@@ -163,7 +178,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 
 .skins button {
@@ -318,11 +333,4 @@
 .prise i:active {
     background: rgb(165, 0, 0);
     color: rgb(126, 126, 126);
-}
-
-#infoitem {
-    width: 110px;
-    border: 1px solid transparent;
-    border-radius: 25px;
-    font-size: 18px;
 }
