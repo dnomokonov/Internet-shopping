@@ -25,6 +25,52 @@
     margin-left: 160px;
 }
 
+.component {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding: 0px 30px 0px 30px;
+}
+
+.text {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.infocomp {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.text p {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.text h6 {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: rgb(141, 141, 141);
+}
+
+.component img {
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+
 .item {
     width: 400px;
     height: auto;
@@ -38,8 +84,15 @@
     background: rgb(34, 34, 34, 0.178);
 }
 
+p {
+    font-size: 20px;
+    color: white;
+    padding: 0px 50px 0px 50px;
+}
+
 .item1 {
     width: 250px;
+    margin-top: 20px;
 }
 
 .item2 {
@@ -67,12 +120,6 @@
     width: 350px;
 }
 
-.item p {
-    font-size: 20px;
-    padding: 0px 40px 0px 40px;
-    color: white;
-}
-
 .item h1 {
     padding-top: 30px;
     color: white;
@@ -92,6 +139,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 15px;
 }
 
 .bt p {
@@ -247,7 +295,7 @@
 }
 
 .block_1 {
-    width: auto;
+    width: 90%;
     height: auto;
     display: flex;
     justify-content: center;
@@ -257,38 +305,75 @@
 }
 
 .block_2 {
-    width: auto;
+    width: 80%;
     height: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: flex-start;
     flex-direction: row;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-.mouseItem {
+.asus {
+    width: 205px;
+}
+
+.mouse1 {
+    width: 200px;
+}
+
+.mouse2 {
+    width: 195px;
+}
+
+.mouse3 {
+    width: 238px;
+}
+
+.mouse4 {
+    width: 300px;
+}
+
+.mouse5 {
+    width: 300px;
+}
+
+.mouse6 {
+    width: 300px;
+}
+
+.gps4 {
+    width: 320px;
+}
+
+.gps5 {
+    width: 320px;
+}
+
+.mItem {
     width: 350px;
-    height: auto;
+    height: 630px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     margin: 20px;
     background: rgb(34, 34, 34, 0.178);
 }
 
-.mouseItem img {
-    width: 200px;
-    margin-top: 30px;
+.mItem img {
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
-.mouseItem h1 {
+.mItem h1 {
     font-size: 30px;
     color: white;
 }
 
-.mouseItem p {
+.mItem p {
     font-size: 18px;
     padding: 0px 40px 0px 40px;
     color: white;

@@ -682,6 +682,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
     background: rgb(34, 34, 34, 0.178);
 }
 
