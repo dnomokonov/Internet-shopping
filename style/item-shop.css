@@ -351,6 +351,26 @@ p {
     width: 320px;
 }
 
+.key1 {
+    width: 300px;
+}
+
+.key2 {
+    width: 300px;
+}
+
+.key3 {
+    width: 300px;
+}
+
+.key4 {
+    width: 300px;
+}
+
+.key5 {
+    width: 300px;
+}
+
 .mItem {
     width: 350px;
     height: 630px;
@@ -358,7 +378,6 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
     margin: 20px;
     background: rgb(34, 34, 34, 0.178);
 }
@@ -376,6 +395,7 @@ p {
 .mItem p {
     font-size: 18px;
     padding: 0px 40px 0px 40px;
+    text-align: inherit;
     color: white;
 }
 
