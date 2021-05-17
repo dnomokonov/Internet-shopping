@@ -219,6 +219,34 @@ p {
     width: 350px;
 }
 
+.head1 {
+    width: 450px;
+}
+
+.head2 {
+    width: 300px;
+}
+
+.head3 {
+    width: 250px;
+}
+
+.head4 {
+    width: 250px;
+}
+
+.head5 {
+    width: 230px;
+}
+
+.head6 {
+    width: 320px;
+}
+
+.head7 {
+    width: 320px;
+}
+
 .skins {
     width: auto;
     height: auto;
@@ -305,7 +333,7 @@ p {
 }
 
 .block_2 {
-    width: 80%;
+    width: 81%;
     height: auto;
     display: flex;
     justify-content: start;
@@ -371,9 +399,13 @@ p {
     width: 300px;
 }
 
+.micro1 {
+    width: 350px;
+}
+
 .mItem {
     width: 350px;
-    height: 630px;
+    height: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;

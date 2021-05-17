@@ -141,6 +141,7 @@ header {
     height: 860px;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 #particles-js {
@@ -156,8 +157,8 @@ header {
 .buyerLogo img {
     width: 500px;
     position: absolute;
-    right: 350px;
-    margin-top: 146px;
+    bottom: 0;
+    right: 250px;
     z-index: 3;
 }
 

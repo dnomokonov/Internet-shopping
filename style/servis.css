@@ -141,6 +141,7 @@ header {
     height: 860px;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 #particles-js {
@@ -177,8 +178,9 @@ header {
 
 .servisLogo img {
     width: 600px;
-    position: relative;
-    margin: 302px 0px 0px 400px;
+    position: absolute;
+    bottom: 0;
+    right: 250px;
     z-index: 4;
 }
 
