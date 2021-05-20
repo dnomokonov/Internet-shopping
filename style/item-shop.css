@@ -403,6 +403,10 @@ p {
     width: 350px;
 }
 
+.mon {
+    width: 320px;
+}
+
 .mItem {
     width: 350px;
     height: 700px;
@@ -429,6 +433,16 @@ p {
     padding: 0px 40px 0px 40px;
     text-align: inherit;
     color: white;
+}
+
+.infoMon {
+    font-size: 20px;
+    margin: 15px 0px 15px 0px;
+    color: rgb(207, 207, 207);
+}
+
+.infoMon td {
+    padding: 0px 6px 0px 6px;
 }
 
 .prise {

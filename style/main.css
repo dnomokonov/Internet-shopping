@@ -128,7 +128,6 @@ header {
 
 .log i {
     color: rgb(100, 100, 100);
-    padding-left: 15px;
 }
 
 .log a:hover,
@@ -136,6 +135,20 @@ header {
 .log i:hover {
     color: rgb(196, 196, 196);
     transition: all 0.3s ease;
+}
+
+#userLog {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: transparent;
+}
+
+#basket {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: transparent;
 }
 
 main {
@@ -478,6 +491,7 @@ h2 {
     margin-left: 8px;
     border-radius: 200px;
     border: 4px solid rgba(255, 255, 255, 0.425);
+    transition: all 0.3s ease;
 }
 
 .personBox img:hover {
