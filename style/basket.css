@@ -1,0 +1,13 @@
+main {
+    width: auto;
+    height: auto;
+}
+
+.inputItem {
+    width: auto;
+    height: 800px;
+}
+
+.inputItem h2 {
+    margin-top: 70px;
+}

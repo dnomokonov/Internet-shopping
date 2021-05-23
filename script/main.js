@@ -5,6 +5,12 @@ window.onscroll = function() {
     progress.style.height = progressHeight + "%";
 }
 
+let basket = document.getElementById('basket');
+
+basket.onclick = () => {
+    window.location.href = './pages/basket.html';
+}
+
 let scene = new THREE.Scene();
 let camera = new THREE.PerspectiveCamera(45, window.innerHeight / window.innerHeight, 0.1, 1000);
 camera.position.z = 10;

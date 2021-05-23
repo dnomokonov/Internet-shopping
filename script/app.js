@@ -35,7 +35,7 @@ particlesJS('particles-js',
                     "nb_sides": 5
                 },
                 "image": {
-                    "src": "http://www.raflost.is/cwcc/Animals/Jellyfish/jellyfish4.gif",
+                    "src": "https://i.pinimg.com/originals/04/eb/0e/04eb0e7803da8fde786a3fb6e0a64cc3.gif",
                     "width": 100,
                     "height": 100
                 }
