@@ -10,7 +10,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <script src="../../script/main.js" defer></script>
-    <script src="../../script/miniScripts.js" defer></script>
     <link rel="stylesheet" href="../../style/main.css">
     <link rel="stylesheet" href="../../style/item-shop.css">
 </head>
@@ -28,9 +27,28 @@
         </div>
         <div class="log">
             <button id="userLog"><i class="fas fa-user"></i></button>
-            <button id="basket"><i class="fas fa-shopping-basket"></i></button>
+            <button class="basket" onclick="window.location.href = '../../pages/basket.html'"><i class="fas fa-shopping-basket"></i></button>
         </div>
     </header>
+
+    <div id="id001" class="menu">
+        <form class="menu-content animate" action="/action_page.php">
+            <div class="textcontainer">
+                <h1>Авторизация</h1>
+                <button id="closeX" class="close" title="Close Modal">×</button>
+            </div>
+
+            <div class="container">
+                <input type="text" placeholder="Username" name="uname" required>
+                <input type="password" placeholder="Password" name="psw" required>
+                <button type="submit" id="inputUser">Войти</button>
+                <div class="offon">
+                    <label><input type="checkbox" checked="checked" name="remember">Запомнить меня</label>
+                    <span class="psw"><a href="#">Забыли пароль?</a></span>
+                </div>
+            </div>
+        </form>
+    </div>
 
     <div id="progressbar"></div>
     <div id="scrollPath"></div>
@@ -46,7 +64,7 @@
                     <hr>
                     <div class="bt">
                         <p>34000 ₽</p>
-                        <button id="addBasket"><i class="fas fa-shopping-bag"></i></button>
+                        <button id="addBasket" data-id="016"><i class="fas fa-shopping-bag"></i></button>
                     </div>
                 </div>
                 <div class="item">
@@ -57,11 +75,11 @@
                     <hr>
                     <div class="bt">
                         <p>49600 ₽</p>
-                        <button id="addBasket"><i class="fas fa-shopping-bag"></i></button>
+                        <button id="addBasket" data-id="017"><i class="fas fa-shopping-bag"></i></button>
                     </div>
                 </div>
                 <div class="item">
-                    <img src="../../image/skinsps/forest.png" alt="normal" class="ps3">
+                    <img src="../../image/skinsps/forest.png" alt="normal" class="ps3" id="skin1">
                     <h1>Forest Edition</h1>
                     <hr>
                     <div class="skins">
@@ -72,11 +90,12 @@
                     <hr>
                     <div class="bt">
                         <p>35500 ₽</p>
-                        <button id="addBasket"><i class="fas fa-shopping-bag"></i></button>
+                        <button id="addBasket" data-id="018"><i class="fas fa-shopping-bag"></i></button>
                     </div>
                 </div>
+
                 <div class="item">
-                    <img src="../../image/skinsps/cs1.png" alt="normal" class="ps4">
+                    <img src="../../image/skinsps/cs1.png" alt="normal" class="ps4" id="skin2">
                     <h1>CS:GO Edition</h1>
                     <hr>
                     <div class="skins">
@@ -89,13 +108,13 @@
                     <hr>
                     <div class="bt">
                         <p>35500 ₽</p>
-                        <button id="addBasket"><i class="fas fa-shopping-bag"></i></button>
+                        <button id="addBasket" data-id="019"><i class="fas fa-shopping-bag"></i></button>
                     </div>
                 </div>
             </div>
             <div class="str2-item">
                 <div class="item">
-                    <img src="../../image/skinsps/toxin.png" alt="best" class="ps5">
+                    <img src="../../image/skinsps/toxin.png" alt="best" class="ps5" id="skin3">
                     <h1>Toxin</h1>
                     <hr>
                     <div class="skins">
@@ -107,7 +126,7 @@
                     <hr>
                     <div class="bt">
                         <p>35500 ₽</p>
-                        <button id="addBasket"><i class="fas fa-shopping-bag"></i></button>
+                        <button id="addBasket" data-id="020"><i class="fas fa-shopping-bag"></i></button>
                     </div>
                 </div>
             </div>

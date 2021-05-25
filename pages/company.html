@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="../style/main.css">
     <link rel="stylesheet" href="../style/company.css">
+    <script src="../script/main.js" defer></script>
+    <script src="../script/basket.js"></script>
 </head>
 
 <body>
@@ -26,13 +28,32 @@
         </div>
         <div class="log">
             <button id="userLog"><i class="fas fa-user"></i></button>
-            <button id="basket" onclick="window.location.href = '../pages/basket.html'"><i class="fas fa-shopping-basket"></i></button>
+            <button class="basket" onclick="window.location.href = '../pages/basket.html'"><i class="fas fa-shopping-basket"></i></button>
         </div>
     </header>
 
     <div class="boxCompany">
         <img src="../image/medusa.gif" alt="meduza" class="animate__animated animate__fadeInDownBig">
         <p class="animate__animated animate__fadeInDownBig">meduza</p>
+    </div>
+
+    <div id="id001" class="menu">
+        <form class="menu-content animate" action="/action_page.php">
+            <div class="textcontainer">
+                <h1>Авторизация</h1>
+                <button id="closeX" class="close" title="Close Modal">×</button>
+            </div>
+
+            <div class="container">
+                <input type="text" placeholder="Username" name="uname" required>
+                <input type="password" placeholder="Password" name="psw" required>
+                <button type="submit" id="inputUser">Войти</button>
+                <div class="offon">
+                    <label><input type="checkbox" checked="checked" name="remember">Запомнить меня</label>
+                    <span class="psw"><a href="#">Забыли пароль?</a></span>
+                </div>
+            </div>
+        </form>
     </div>
 
     <div id="progressbar"></div>

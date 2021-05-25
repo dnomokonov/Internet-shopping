@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./style/uikit.min.css" />
     <link rel="stylesheet" href="../style/main.css">
     <link rel="stylesheet" href="../style/basket.css">
+    <script src="../script/basket.js" defer></script>
     <script src="../script/main.js"></script>
     <title>Корзина</title>
 </head>
@@ -28,15 +29,17 @@
         </div>
         <div class="log">
             <button id="userLog"><i class="fas fa-user"></i></button>
-            <button id="basket"><i class="fas fa-shopping-basket"></i></button>
+            <button id="basket" class="basket"><i class="fas fa-shopping-basket"></i></button>
         </div>
     </header>
 
     <main>
         <div class="inputItem">
             <h2>Корзина</h2>
-            <!--добавить имя пользователя-->
         </div>
+
+        <div id="cart-content"></div>
+
     </main>
 
     <footer>

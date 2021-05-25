@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="../../style/main.css">
     <link rel="stylesheet" href="../../style/item-shop.css">
+    <script src="../../script/basket.js" defer></script>
     <script src="../../script/main.js" defer></script>
 </head>
 
@@ -26,9 +27,28 @@
     </div>
     <div class="log">
         <button id="userLog"><i class="fas fa-user"></i></button>
-        <button id="basket"><i class="fas fa-shopping-basket"></i></button>
+        <button class="basket" onclick="window.location.href = '../../pages/basket.html'"><i class="fas fa-shopping-basket"></i></button>
     </div>
 </header>
+
+<div id="id001" class="menu">
+    <form class="menu-content animate" action="/action_page.php">
+        <div class="textcontainer">
+            <h1>Авторизация</h1>
+            <button id="closeX" class="close" title="Close Modal">×</button>
+        </div>
+
+        <div class="container">
+            <input type="text" placeholder="Username" name="uname" required>
+            <input type="password" placeholder="Password" name="psw" required>
+            <button type="submit" id="inputUser">Войти</button>
+            <div class="offon">
+                <label><input type="checkbox" checked="checked" name="remember">Запомнить меня</label>
+                <span class="psw"><a href="#">Забыли пароль?</a></span>
+            </div>
+        </div>
+    </form>
+</div>
 
 <div id="progressbar"></div>
 <div id="scrollPath"></div>
@@ -74,7 +94,7 @@
             </table>
             <div class="prise">
                 <p>12900 ₽</p>
-                <button><i class="fas fa-shopping-bag"></i></button>
+                <button class="addBasket" data-id="049"><i class="fas fa-shopping-bag"></i></button>
             </div>
         </div>
         <div class="mItem">
@@ -116,7 +136,7 @@
             </table>
             <div class="prise">
                 <p>15600 ₽</p>
-                <button><i class="fas fa-shopping-bag"></i></button>
+                <button class="addBasket" data-id="050"><i class="fas fa-shopping-bag"></i></button>
             </div>
         </div>
         <div class="mItem">
@@ -158,7 +178,7 @@
             </table>
             <div class="prise">
                 <p>17900 ₽</p>
-                <button><i class="fas fa-shopping-bag"></i></button>
+                <button class="addBasket" data-id="051"><i class="fas fa-shopping-bag"></i></button>
             </div>
         </div>
         <div class="mItem">
@@ -200,7 +220,7 @@
             </table>
             <div class="prise">
                 <p>20500 ₽</p>
-                <button><i class="fas fa-shopping-bag"></i></button>
+                <button class="addBasket" data-id="052"><i class="fas fa-shopping-bag"></i></button>
             </div>
         </div>
     </div>
@@ -244,7 +264,7 @@
             </table>
             <div class="prise">
                 <p>25600 ₽</p>
-                <button><i class="fas fa-shopping-bag"></i></button>
+                <button class="addBasket" data-id="053"><i class="fas fa-shopping-bag"></i></button>
             </div>
         </div>
         <div class="mItem">
@@ -286,7 +306,7 @@
             </table>
             <div class="prise">
                 <p>35000 ₽</p>
-                <button><i class="fas fa-shopping-bag"></i></button>
+                <button class="addBasket" data-id="054"><i class="fas fa-shopping-bag"></i></button>
             </div>
         </div>
         <div class="mItem">
@@ -328,7 +348,7 @@
             </table>
             <div class="prise">
                 <p>45600 ₽</p>
-                <button><i class="fas fa-shopping-bag"></i></button>
+                <button class="addBasket" data-id="055"><i class="fas fa-shopping-bag"></i></button>
             </div>
         </div>
     </div>

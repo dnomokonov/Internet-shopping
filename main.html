@@ -28,10 +28,29 @@
             <a href="./pages/company.html">О компании</a>
         </div>
         <div class="log">
-            <button id="userLog"><i class="fas fa-user"></i></button>
-            <button id="basket"><i class="fas fa-shopping-basket"></i></button>
+            <button id="userLog" style="width:auto;"><i class="fas fa-user"></i></button>
+            <button class="basket" onclick="window.location.href = './pages/basket.html'"><i class="fas fa-shopping-basket"></i></button>
         </div>
     </header>
+
+    <div id="id001" class="menu">
+        <form class="menu-content animate" action="/action_page.php">
+            <div class="textcontainer">
+                <h1>Авторизация</h1>
+                <button id="closeX" class="close" title="Close Modal">×</button>
+            </div>
+
+            <div class="container">
+                <input type="text" placeholder="Username" name="uname" required>
+                <input type="password" placeholder="Password" name="psw" required>
+                <button type="submit" id="inputUser">Войти</button>
+                <div class="offon">
+                    <label><input type="checkbox" checked="checked" name="remember">Запомнить меня</label>
+                    <span class="psw"><a href="#">Забыли пароль?</a></span>
+                </div>
+            </div>
+        </form>
+    </div>
 
     <div class="boxLogo">
         <div id="particles-js"></div>

@@ -26,9 +26,28 @@
     </div>
     <div class="log">
         <button id="userLog"><i class="fas fa-user"></i></button>
-        <button id="basket"><i class="fas fa-shopping-basket"></i></button>
+        <button class="basket" onclick="window.location.href = '../../pages/basket.html'"><i class="fas fa-shopping-basket"></i></button>
     </div>
 </header>
+
+<div id="id001" class="menu">
+    <form class="menu-content animate" action="/action_page.php">
+        <div class="textcontainer">
+            <h1>Авторизация</h1>
+            <button id="closeX" class="close" title="Close Modal">×</button>
+        </div>
+
+        <div class="container">
+            <input type="text" placeholder="Username" name="uname" required>
+            <input type="password" placeholder="Password" name="psw" required>
+            <button type="submit" id="inputUser">Войти</button>
+            <div class="offon">
+                <label><input type="checkbox" checked="checked" name="remember">Запомнить меня</label>
+                <span class="psw"><a href="#">Забыли пароль?</a></span>
+            </div>
+        </div>
+    </form>
+</div>
 
 <div id="progressbar"></div>
 <div id="scrollPath"></div>
@@ -41,7 +60,7 @@
             <p>Радиочастотная стереогарнитура Logitech G733 LIGHTSPEED − игровые наушники с охватывающими амбушюрами, которые поддерживают виртуальный звук формата 7.1.</p>
             <div class="prise">
                 <p>5500 ₽</p>
-                <button><i class="fas fa-shopping-bag"></i></button>
+                <button data-id="033"><i class="fas fa-shopping-bag"></i></button>
             </div>
         </div>
         <div class="mItem">
@@ -50,7 +69,7 @@
             <p>Легкая и надежная конструкция<br>Регулируемые вертикальные слайдеры<br>Кабель RemoteTalk<br>Поддерживают виртуальный звук формата 7.1.<br>Не знаю что придумать, но пусть будет</p>
             <div class="prise">
                 <p>6500 ₽</p>
-                <button><i class="fas fa-shopping-bag"></i></button>
+                <button data-id="034"><i class="fas fa-shopping-bag"></i></button>
             </div>
         </div>
         <div class="mItem">
@@ -59,7 +78,7 @@
             <p>Легкая и надежная конструкция<br>Регулируемые вертикальные слайдеры<br>Кабель RemoteTalk<br>Поддерживают виртуальный звук формата 7.1.<br>Не знаю что придумать, но пусть будет</p>
             <div class="prise">
                 <p>6700 ₽</p>
-                <button><i class="fas fa-shopping-bag"></i></button>
+                <button data-id="035"><i class="fas fa-shopping-bag"></i></button>
             </div>
         </div>
         <div class="mItem">
@@ -68,7 +87,7 @@
             <p>Легкая и надежная конструкция<br>Регулируемые вертикальные слайдеры<br>Кабель RemoteTalk<br>Поддерживают виртуальный звук формата 7.1.<br>Не знаю что придумать, но пусть будет</p>
             <div class="prise">
                 <p>7500 ₽</p>
-                <button><i class="fas fa-shopping-bag"></i></button>
+                <button data-id="036"><i class="fas fa-shopping-bag"></i></button>
             </div>
         </div>
     </div>
@@ -79,7 +98,7 @@
             <p>Легкая и надежная конструкция<br>Регулируемые вертикальные слайдеры<br>Кабель RemoteTalk<br>Поддерживают виртуальный звук формата 7.1.<br>Не знаю что придумать, но пусть будет</p>
             <div class="prise">
                 <p>8200 ₽</p>
-                <button><i class="fas fa-shopping-bag"></i></button>
+                <button data-id="037"><i class="fas fa-shopping-bag"></i></button>
             </div>
         </div>
         <div class="mItem">
@@ -88,7 +107,7 @@
             <p>Легкая и надежная конструкция<br>Регулируемые вертикальные слайдеры<br>Кабель RemoteTalk<br>Поддерживают виртуальный звук формата 7.1.<br>Не знаю что придумать, но пусть будет</p>
             <div class="prise">
                 <p>9500 ₽</p>
-                <button><i class="fas fa-shopping-bag"></i></button>
+                <button data-id="038"></button><i class="fas fa-shopping-bag"></i></button>
             </div>
         </div>
         <div class="mItem">
@@ -97,7 +116,7 @@
             <p>Легкая и надежная конструкция<br>Регулируемые вертикальные слайдеры<br>Кабель RemoteTalk<br>Поддерживают виртуальный звук формата 7.1.<br>Не знаю что придумать, но пусть будет</p>
             <div class="prise">
                 <p>12000 ₽</p>
-                <button><i class="fas fa-shopping-bag"></i></button>
+                <button data-id="039"><i class="fas fa-shopping-bag"></i></button>
             </div>
         </div>
     </div>

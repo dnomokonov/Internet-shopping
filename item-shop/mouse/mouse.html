@@ -26,9 +26,28 @@
     </div>
     <div class="log">
         <button id="userLog"><i class="fas fa-user"></i></button>
-        <button id="basket"><i class="fas fa-shopping-basket"></i></button>
+        <button class="basket" onclick="window.location.href = '../../pages/basket.html'"><i class="fas fa-shopping-basket"></i></button>
     </div>
 </header>
+
+<div id="id001" class="menu">
+    <form class="menu-content animate" action="/action_page.php">
+        <div class="textcontainer">
+            <h1>Авторизация</h1>
+            <button id="closeX" class="close" title="Close Modal">×</button>
+        </div>
+
+        <div class="container">
+            <input type="text" placeholder="Username" name="uname" required>
+            <input type="password" placeholder="Password" name="psw" required>
+            <button type="submit" id="inputUser">Войти</button>
+            <div class="offon">
+                <label><input type="checkbox" checked="checked" name="remember">Запомнить меня</label>
+                <span class="psw"><a href="#">Забыли пароль?</a></span>
+            </div>
+        </div>
+    </form>
+</div>
 
 <div id="progressbar"></div>
 <div id="scrollPath"></div>
@@ -40,8 +59,8 @@
             <h1>ASUS ROG Pugio II</h1>
             <p>Мышь ASUS ROG Pugio II, беспроводная, USB, черный</p>
             <div class="prise">
-                <p>8500 ₽</p>
-                <button><i class="fas fa-shopping-bag"></i></button>
+                <p>6500 ₽</p>
+                <button data-id="021"><i class="fas fa-shopping-bag"></i></button>
             </div>
         </div>
         <div class="mItem">
@@ -50,7 +69,7 @@
             <p>Проводная игровая мышь Defender Sky Dragon GM-090L оптика,6кнопок,800-3200dpi</p>
             <div class="prise">
                 <p>8500 ₽</p>
-                <button><i class="fas fa-shopping-bag"></i></button>
+                <button data-id="022"><i class="fas fa-shopping-bag"></i></button>
             </div>
         </div>
         <div class="mItem">
@@ -58,8 +77,8 @@
             <h1>Defender Shock</h1>
             <p>Проводная игровая мышь Defender Shock GM-110L оптика,6кнопок,800-3200dpi</p>
             <div class="prise">
-                <p>8500 ₽</p>
-                <button><i class="fas fa-shopping-bag"></i></button>
+                <p>9500 ₽</p>
+                <button data-id="023"><i class="fas fa-shopping-bag"></i></button>
             </div>
         </div>
         <div class="mItem">
@@ -67,8 +86,8 @@
             <h1>Defender Titan</h1>
             <p>Мышь игровая Defender GM-650L Titan, проводная, черная</p>
             <div class="prise">
-                <p>8500 ₽</p>
-                <button><i class="fas fa-shopping-bag"></i></button>
+                <p>10500 ₽</p>
+                <button data-id="024"><i class="fas fa-shopping-bag"></i></button>
             </div>
         </div>
     </div>
@@ -78,8 +97,8 @@
             <h1>Razer DeathAdder</h1>
             <p>Razer DeathAdder V2 Mini, беспроводная, USB, черный</p>
             <div class="prise">
-                <p>8500 ₽</p>
-                <button><i class="fas fa-shopping-bag"></i></button>
+                <p>11500 ₽</p>
+                <button data-id="025"><i class="fas fa-shopping-bag"></i></button>
             </div>
         </div>
         <div class="mItem">
@@ -87,8 +106,8 @@
             <h1>Mouse Grip Tapes</h1>
             <p>Mouse Grip Tapes, беспроводная, USB, черный</p>
             <div class="prise">
-                <p>8500 ₽</p>
-                <button><i class="fas fa-shopping-bag"></i></button>
+                <p>12500 ₽</p>
+                <button data-id="026"><i class="fas fa-shopping-bag"></i></button>
             </div>
         </div>
         <div class="mItem">
@@ -96,8 +115,8 @@
             <h1>Razer Basilisk</h1>
             <p>Razer Basilisk, Quartz Pink</p>
             <div class="prise">
-                <p>8500 ₽</p>
-                <button><i class="fas fa-shopping-bag"></i></button>
+                <p>13500 ₽</p>
+                <button data-id="027"><i class="fas fa-shopping-bag"></i></button>
             </div>
         </div>
     </div>

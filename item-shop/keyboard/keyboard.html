@@ -26,9 +26,28 @@
     </div>
     <div class="log">
         <button id="userLog"><i class="fas fa-user"></i></button>
-        <button id="basket"><i class="fas fa-shopping-basket"></i></button>
+        <button class="basket" onclick="window.location.href = '../../pages/basket.html'"><i class="fas fa-shopping-basket"></i></button>
     </div>
 </header>
+
+<div id="id001" class="menu">
+    <form class="menu-content animate" action="/action_page.php">
+        <div class="textcontainer">
+            <h1>Авторизация</h1>
+            <button id="closeX" class="close" title="Close Modal">×</button>
+        </div>
+
+        <div class="container">
+            <input type="text" placeholder="Username" name="uname" required>
+            <input type="password" placeholder="Password" name="psw" required>
+            <button type="submit" id="inputUser">Войти</button>
+            <div class="offon">
+                <label><input type="checkbox" checked="checked" name="remember">Запомнить меня</label>
+                <span class="psw"><a href="#">Забыли пароль?</a></span>
+            </div>
+        </div>
+    </form>
+</div>
 
 <div id="progressbar"></div>
 <div id="scrollPath"></div>
@@ -41,7 +60,7 @@
             <p>Игровая клавиатура на 60% с оптическим переключателем Razer ™<br>Разработанные для игр, клавиатуры Razer BlackWidow оснащены механическими переключателями Razer ™ для обеспечения точности турнирного уровня.</p>
             <div class="prise">
                 <p>5600 ₽</p>
-                <button><i class="fas fa-shopping-bag"></i></button>
+                <button data-id="028"><i class="fas fa-shopping-bag"></i></button>
             </div>
         </div>
         <div class="mItem">
@@ -51,7 +70,7 @@
                 и ярлыки.</p>
             <div class="prise">
                 <p>7200 ₽</p>
-                <button><i class="fas fa-shopping-bag"></i></button>
+                <button data-id="029"><i class="fas fa-shopping-bag"></i></button>
             </div>
         </div>
         <div class="mItem">
@@ -60,7 +79,7 @@
             <p>это ультракомпактная и прочная клавиатура без цифрового блока со специально разработанными механическими переключателями HyperX, предлагающая геймерам лучшее сочетание стиля, производительности и надежности.</p>
             <div class="prise">
                 <p>8100 ₽</p>
-                <button><i class="fas fa-shopping-bag"></i></button>
+                <button data-id="030"><i class="fas fa-shopping-bag"></i></button>
             </div>
         </div>
         <div class="mItem">
@@ -69,7 +88,7 @@
             <p>это ультракомпактная и прочная клавиатура без цифрового блока со специально разработанными механическими переключателями HyperX, предлагающая геймерам лучшее сочетание стиля, производительности и надежности.</p>
             <div class="prise">
                 <p>9500 ₽</p>
-                <button><i class="fas fa-shopping-bag"></i></button>
+                <button data-id="031"><i class="fas fa-shopping-bag"></i></button>
             </div>
         </div>
     </div>
@@ -80,7 +99,7 @@
             <p>-Механические переключатели Razer ™ с усилием срабатывания 50.г<br>-Срок службы 80 миллионов нажатий клавиш<br>-Водо- и пыленепроницаемость - сертификация IP54<br>-10 опрокидывающихся клавиш с защитой от ореолов<br>-Razer Synapse включен</p>
             <div class="prise">
                 <p>12500 ₽</p>
-                <button><i class="fas fa-shopping-bag"></i></button>
+                <button data-id="032"><i class="fas fa-shopping-bag"></i></button>
             </div>
         </div>
     </div>
