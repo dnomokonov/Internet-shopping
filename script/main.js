@@ -19,34 +19,6 @@ function closeBox() {
     document.getElementById('id001').style.display = 'none';
 }
 
-let btnf1 = document.getElementById('skinF1');
-
-let btnf2 = document.getElementById('skinF2');
-
-let btncs1 = document.getElementById('skincs1');
-
-let btncs2 = document.getElementById('skincs2');
-
-let btncs3 = document.getElementById('skincs3');
-
-let btncs4 = document.getElementById('skincs4');
-
-let btnt1 = document.getElementById('skint1');
-
-let btnt2 = document.getElementById('skint2');
-
-let btnt3 = document.getElementById('skint3');
-
-
-let skin1 = document.getElementById('skin1');
-let skin2 = document.getElementById('skin1');
-let skin3 = document.getElementById('skin1');
-
-/*доделать проверку картинки*/
-
-btnf2.onclick = function() {
-    skin1.src = "../../image/skinsps/forest.png";
-}​​
 
 let scene = new THREE.Scene();
 let camera = new THREE.PerspectiveCamera(45, window.innerHeight / window.innerHeight, 0.1, 1000);

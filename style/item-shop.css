@@ -284,25 +284,19 @@ p {
 }
 
 #skincs1 {
-    background: url(../image/skinsps/textcs1.jpg);
+    background: url(../image/skinsps/textcs4.png);
     background-position: center;
     background-size: 170%;
 }
 
 #skincs2 {
-    background: url(../image/skinsps/textcs2.jpg);
-    background-position: center;
-    background-size: 170%;
-}
-
-#skincs3 {
     background: url(../image/skinsps/textcs3.png);
     background-position: center;
     background-size: 170%;
 }
 
-#skincs4 {
-    background: url(../image/skinsps/textcs4.png);
+#skincs3 {
+    background: url(../image/skinsps/textcs2.jpg);
     background-position: center;
     background-size: 170%;
 }
