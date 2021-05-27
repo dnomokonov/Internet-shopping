@@ -5,7 +5,7 @@ let btnf1 = document.getElementById('skinF1'),
     btncs3 = document.getElementById('skincs3'),
     btnt1 = document.getElementById('skint1'),
     btnt2 = document.getElementById('skint2'),
-    btnt3 = document.getElementById('skin3');
+    btnt3 = document.getElementById('skint3');
 
 let skin1 = document.getElementById('skin1'),
     skin2 = document.getElementById('skin2'),
@@ -29,4 +29,16 @@ btncs2.onclick = function() {
 
 btncs3.onclick = function() {
     skin2.src = "../../image/skinsps/cs3.png";
+}
+
+btnt1.onclick = function() {
+    skin3.src = "../../image/skinsps/toxin.png";
+}
+
+btnt2.onclick = function() {
+    skin3.src = "../../image/skinsps/toxin2.png";
+}
+
+btnt3.onclick = function() {
+    skin3.src = "../../image/skinsps/toxin3.png";
 }
