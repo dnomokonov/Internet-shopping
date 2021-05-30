@@ -365,13 +365,13 @@
             <h2>Остались вопросы??</h2>
             <hr>
             <div class="inputBox">
-                <div class="form">
+                <form class="form">
                     <p>Напишите нам</p>
-                    <input id="name" type="text" placeholder="Имя">
-                    <input id="email" type="email" placeholder="Почта">
-                    <textarea id="message" placeholder="Сообщение..."></textarea>
-                    <button id="reception">Отправить</button>
-                </div>
+                    <input id="name" type="text" placeholder="Имя" name="uname">
+                    <input id="email" type="email" placeholder="Почта" name="email" required>
+                    <textarea id="message" placeholder="Сообщение..." required></textarea>
+                    <button class="reception" type="submit" id="quesIn">Отправить</button>
+                </form>
                 <img src="./image/3dspeech.png" class="speech" alt="speech">
                 <img src="./image/3dwoman1.png" class="woman" alt="woman">
             </div>

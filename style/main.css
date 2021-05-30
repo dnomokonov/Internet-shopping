@@ -313,6 +313,7 @@ main {
     height: 860px;
     display: flex;
     align-items: center;
+    margin-bottom: 90px;
 }
 
 .textlogo {
@@ -808,7 +809,7 @@ h2 {
     background-color: rgb(56, 56, 56);
 }
 
-#reception {
+.reception {
     width: 140px;
     height: 40px;
     margin-top: 20px;
@@ -817,11 +818,11 @@ h2 {
     background: none;
 }
 
-#reception:hover {
+.reception:hover {
     background-color: rgb(45, 45, 45);
 }
 
-#reception:active {
+.reception:active {
     background-color: rgb(30, 30, 30);
 }
 

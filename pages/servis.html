@@ -149,12 +149,12 @@
             <h2>Запись на сервис</h2>
             <hr>
             <div class="item-recording">
-                <div class="form">
+                <form class="form">
                     <input id="name" type="text" placeholder="Имя">
-                    <input id="email" type="email" placeholder="Почта">
-                    <textarea id="message" placeholder="Сообщение..."></textarea>
-                    <button id="reception">Отправить</button>
-                </div>
+                    <input id="email" type="email" placeholder="Почта" required>
+                    <textarea id="message" placeholder="Сообщение..." required></textarea>
+                    <button class="reception" type="submit" id="servisIn">Отправить</button>
+                </form>
                 <div class="record-info">
                     <h1>Что нужно указать в заявке:</h1>
                     <p>1) Полное имя и email.<br>2) В поле сообщении указать что вам нужно (ремонт, консультация, апгрейд, tradein).<br>3) Расписать проблему/жалобу.<br>4) Ожидайте ответа на электронную почту от нашего менеджера</p>
