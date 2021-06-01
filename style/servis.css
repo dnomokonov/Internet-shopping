@@ -198,7 +198,7 @@ table td i {
     flex-direction: column;
 }
 
-input {
+.form input {
     width: 400px;
     height: 50px;
     margin-bottom: 30px;
@@ -211,7 +211,7 @@ input {
     background-color: rgb(56, 56, 56);
 }
 
-textarea {
+.form textarea {
     width: 400px;
     height: 220px;
     resize: none;
